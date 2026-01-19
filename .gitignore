@@ -1,2 +1,2 @@
 #ignore json files so my computer doesn't crash
-data/*.json
+*.json
