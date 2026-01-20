@@ -15,6 +15,7 @@ final_deathcount = {}
 for places in deathplace:
     if isinstance(places, list):
         for place in places:
+            place = place.lower()
             if place in deathcount:
                 deathcount[place] += 1
                 if deathcount[place] >= 10:
@@ -23,6 +24,7 @@ for places in deathplace:
                 deathcount[place] = 1
     else:
         if places in deathcount:
+            places = places.lower()
             deathcount[places] += 1
             if deathcount[places] >= 10:
                     final_deathcount[places] = deathcount[places]
