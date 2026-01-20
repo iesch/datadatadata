@@ -17,10 +17,14 @@ final_deathcount = Counter()
 # filter for only entries that include death place
 for person in data:
     for info in person: 
-        if 'ontology/deathPlace_label' and 'ontology/deathDate' in info:
-            year = int(info['ontology/deathDate'].split('-')[0])
-            if year >= 2000:
-                deathplace.append(info['ontology/deathPlace_label'])
+        if 'ontology/deathPlace_label' in info and 'ontology/deathDate' in info:
+            if not isinstance(info['ontology/deathDate'], list):
+                try:
+                    year = int(info['ontology/deathDate'].split('-')[0])
+                except ValueError:
+                    print(info['ontology/deathDate'].split('-')[0])
+                if year >= 2000:
+                    deathplace.append(info['ontology/deathPlace_label'])
 
 # counting number of deaths in each place
 for places in deathplace:
