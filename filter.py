@@ -9,7 +9,6 @@ for letter in alphabet :
     with open(f'People/{letter}_people.json') as file:
         data.append(json.load(file))
 
-print(len(data))
 
 # initialize variables
 deathplace = []
@@ -17,13 +16,13 @@ deathcount = {}
 final_deathcount = Counter()
 
 # filter for only entries that include death place
-for dict in data: 
-    if 'ontology/deathPlace_label' in dict:
-        deathplace.append(dict['ontology/deathPlace_label'])
+for person in data:
+    for info in person: 
+        if 'ontology/deathPlace_label' in info:
+            deathplace.append(info['ontology/deathPlace_label'])
 
 # counting number of deaths in each place
 for places in deathplace:
-    
     # if it's a list
     if isinstance(places, list): 
         for place in places:
