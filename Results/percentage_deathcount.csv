@@ -1,276 +1,279 @@
 region, century, Percentage_Deathcount
-Malta, 19, 0.36
-Turkey, 19, 0.11
-UK, 19, 19.51
-Iran, 19, 0.07
-Italy, 19, 3.32
-France, 19, 16.03
-China, 19, 0.59
-Russia, 19, 1.63
-Greece, 19, 0.41
-Finland, 19, 0.38
-Sweden, 19, 1.9
-Denmark, 19, 2.53
-Latvia, 19, 0.18
-Norway, 19, 1.22
-Austria, 19, 4.63
-Australia, 19, 4.18
-Vietnam, 19, 0.36
-Uganda, 19, 0.16
-Bermuda, 19, 0.14
-Netherlands, 19, 1.96
-Belgium, 19, 2.85
-Madagascar, 19, 0.09
-Chile, 19, 1.49
-Philippines, 19, 0.29
-Bulgaria, 19, 0.27
-Canada, 19, 1.99
-Myanmar, 19, 0.16
-Germany, 19, 4.88
-Hungary, 19, 0.41
-Spain, 19, 2.62
-Slovakia, 19, 0.2
-Romania, 19, 0.63
-Poland, 19, 1.06
-Falkland Islands, 19, 0.05
-Peru, 19, 0.86
-Mexico, 19, 1.58
-Ecuador, 19, 0.32
-Pakistan, 19, 0.11
-Brazil, 19, 0.86
-Argentina, 19, 1.47
-Scotland, 19, 1.42
-Ireland, 19, 1.42
-Estonia, 19, 0.2
-Haiti, 19, 0.32
-New Zealand, 19, 1.17
-Liberia, 19, 0.23
-Switzerland, 19, 1.47
+Malta, 19, 0.31
+Turkey, 19, 0.1
+UK, 19, 16.89
+Iran, 19, 0.06
+Italy, 19, 2.87
+USA, 19, 13.37
+France, 19, 13.88
+China, 19, 0.51
+Russia, 19, 1.41
+Greece, 19, 0.35
+Finland, 19, 0.33
+Sweden, 19, 1.64
+Denmark, 19, 2.19
+Latvia, 19, 0.16
+Norway, 19, 1.06
+Austria, 19, 4.01
+Australia, 19, 3.62
+Vietnam, 19, 0.31
+Uganda, 19, 0.14
+Bermuda, 19, 0.12
+Netherlands, 19, 1.7
+Belgium, 19, 2.46
+Madagascar, 19, 0.08
+Chile, 19, 1.29
+Philippines, 19, 0.25
+Bulgaria, 19, 0.23
+Canada, 19, 1.72
+Myanmar, 19, 0.14
+Germany, 19, 4.22
+Hungary, 19, 0.35
+Spain, 19, 2.27
+Slovakia, 19, 0.18
+Romania, 19, 0.55
+Poland, 19, 0.92
+Falkland Islands, 19, 0.04
+Peru, 19, 0.74
+Mexico, 19, 1.37
+Ecuador, 19, 0.27
+Pakistan, 19, 0.1
+Brazil, 19, 0.74
+Argentina, 19, 1.27
+Scotland, 19, 1.23
+Ireland, 19, 1.23
+Estonia, 19, 0.18
+Haiti, 19, 0.29
+New Zealand, 19, 1.02
+Liberia, 19, 0.2
+Switzerland, 19, 1.27
 Zimbabwe, 19, 0.02
-Czech Republic, 19, 0.52
-Thailand, 19, 0.77
-Montserrat, 19, 0.2
-Colombia, 19, 0.38
-Portugal, 19, 0.77
-Guernsey, 19, 0.09
-Venezuela, 19, 0.5
-Sri Lanka, 19, 0.25
+Czech Republic, 19, 0.45
+Thailand, 19, 0.66
+Montserrat, 19, 0.18
+Colombia, 19, 0.33
+Portugal, 19, 0.66
+Guernsey, 19, 0.08
+Venezuela, 19, 0.43
+Sri Lanka, 19, 0.22
 Saudi Arabia, 19, 0.02
 Mauritania, 19, 0.02
-Kosovo, 19, 0.05
-Japan, 19, 1.33
-Cuba, 19, 0.29
-Bolivia, 19, 0.27
-Yemen, 19, 0.05
-Nepal, 19, 0.09
-Solomon Islands, 19, 0.05
-Algeria, 19, 0.11
+Kosovo, 19, 0.04
+Japan, 19, 1.15
+Cuba, 19, 0.25
+Bolivia, 19, 0.23
+Yemen, 19, 0.04
+Nepal, 19, 0.08
+Solomon Islands, 19, 0.04
+Algeria, 19, 0.1
 Belarus, 19, 0.02
-Iceland, 19, 0.05
-El Salvador, 19, 0.14
-Costa Rica, 19, 0.16
-Puerto Rico, 19, 0.07
-Barbados, 19, 0.09
-Fiji, 19, 0.07
-Gibraltar, 19, 0.09
-Trinidad, 19, 0.09
-India, 19, 0.72
-Malaysia, 19, 0.09
+Iceland, 19, 0.04
+El Salvador, 19, 0.12
+Costa Rica, 19, 0.14
+Puerto Rico, 19, 0.06
+Barbados, 19, 0.08
+Fiji, 19, 0.06
+Gibraltar, 19, 0.08
+Trinidad, 19, 0.08
+Isle of Man, 19, 0.06
+India, 19, 0.63
+Malaysia, 19, 0.08
 Wales, 19, 0.02
-South Korea, 19, 0.09
-Indonesia, 19, 0.05
-Paraguay, 19, 0.11
-Dominican Republic, 19, 0.14
-Lebanon, 19, 0.16
-Luxembourg, 19, 0.14
-Greenland, 19, 0.05
-Angola, 19, 0.05
-South Africa, 19, 0.34
-Mauritius, 19, 0.11
-Egypt, 19, 0.36
-Slovenia, 19, 0.16
-Libya, 19, 0.05
+South Korea, 19, 0.08
+Indonesia, 19, 0.04
+Paraguay, 19, 0.1
+Dominican Republic, 19, 0.12
+Lebanon, 19, 0.14
+Luxembourg, 19, 0.12
+Greenland, 19, 0.04
+Angola, 19, 0.04
+South Africa, 19, 0.29
+Mauritius, 19, 0.1
+Egypt, 19, 0.31
+Slovenia, 19, 0.14
+Libya, 19, 0.04
 Nicaragua, 19, 0.02
-Uruguay, 19, 0.34
+Uruguay, 19, 0.29
 Liechtenstein, 19, 0.02
-Lithuania, 19, 0.23
+Lithuania, 19, 0.2
 French Guiana, 19, 0.02
-Singapore, 19, 0.05
-Croatia, 19, 0.2
+Singapore, 19, 0.04
+Croatia, 19, 0.18
 Norfolk Island, 19, 0.02
-Georgia, 19, 0.05
-Nigeria, 19, 0.05
+Georgia, 19, 0.04
+Nigeria, 19, 0.04
 Papua New Guinea, 19, 0.02
 Palestine, 19, 0.02
-Morocco, 19, 0.05
-Tunisia, 19, 0.05
+Morocco, 19, 0.04
+Tunisia, 19, 0.04
 Laos, 19, 0.02
-Jersey, 19, 0.09
-United Kingdom Northern Ireland, 19, 0.09
-Ukraine, 19, 0.07
+Jersey, 19, 0.08
+United Kingdom Northern Ireland, 19, 0.08
+Ukraine, 19, 0.06
 Pitcairn Islands, 19, 0.02
-Sierra Leone, 19, 0.11
+Sierra Leone, 19, 0.1
 Vanuatu, 19, 0.02
-Antigua, 19, 0.05
-Sudan, 19, 0.05
-Monaco, 19, 0.09
+Antigua, 19, 0.04
+Sudan, 19, 0.04
+Monaco, 19, 0.08
 Iraq, 19, 0.02
-Honduras, 19, 0.07
-Guatemala, 19, 0.25
-Syria, 19, 0.05
+Honduras, 19, 0.06
+Guatemala, 19, 0.22
+Syria, 19, 0.04
 Panama, 19, 0.02
-Serbia, 19, 0.11
+Serbia, 19, 0.1
 Namibia, 19, 0.02
-Bangladesh, 19, 0.05
+Bangladesh, 19, 0.04
 Senegal, 19, 0.02
 Samoa, 19, 0.02
 Niger, 19, 0.02
 Saint Helena, 19, 0.02
 Kyrgyzstan, 19, 0.02
 Brunei, 19, 0.02
-Azerbaijan, 19, 0.05
+Azerbaijan, 19, 0.04
 Afghanistan, 19, 0.02
 Seychelles, 19, 0.02
-French Polynesia, 19, 0.07
-Ethiopia, 19, 0.05
+French Polynesia, 19, 0.06
+Ethiopia, 19, 0.04
 Oman, 19, 0.02
 Montenegro, 19, 0.02
 Cook Islands, 19, 0.02
 Suriname, 19, 0.02
-Bulgaria, 20, 0.52
-Romania, 20, 0.77
-Turkey, 20, 0.81
-Serbia, 20, 0.17
-France, 20, 8.37
-Switzerland, 20, 1.67
-UK, 20, 18.2
-Sri Lanka, 20, 0.27
-Fiji, 20, 0.04
-India, 20, 1.99
-Bangladesh, 20, 0.26
-Pakistan, 20, 0.56
-Spain, 20, 2.01
-New Zealand, 20, 1.5
-Australia, 20, 3.33
-Germany, 20, 8.31
-Italy, 20, 5.19
-Iran, 20, 0.43
-Canada, 20, 3.6
-Indonesia, 20, 0.43
-South Africa, 20, 0.87
-Brazil, 20, 0.97
-Portugal, 20, 0.57
+Bulgaria, 20, 0.45
+Romania, 20, 0.67
+Turkey, 20, 0.7
+Serbia, 20, 0.15
+France, 20, 7.2
+Switzerland, 20, 1.44
+USA, 20, 13.88
+UK, 20, 15.66
+Sri Lanka, 20, 0.23
+Fiji, 20, 0.03
+India, 20, 1.71
+Bangladesh, 20, 0.22
+Pakistan, 20, 0.48
+Spain, 20, 1.73
+New Zealand, 20, 1.29
+Australia, 20, 2.86
+Germany, 20, 7.15
+Italy, 20, 4.47
+Iran, 20, 0.37
+Canada, 20, 3.1
+Indonesia, 20, 0.37
+South Africa, 20, 0.75
+Brazil, 20, 0.83
+Portugal, 20, 0.49
 Guinea, 20, 0.02
-China, 20, 0.75
-Colombia, 20, 0.35
-Mexico, 20, 1.63
-Armenia, 20, 0.18
-Thailand, 20, 0.32
-Philippines, 20, 0.73
-Russia, 20, 2.13
-Malta, 20, 0.14
-Paraguay, 20, 0.13
-Panama, 20, 0.09
-Greece, 20, 0.63
-Poland, 20, 1.85
-Nepal, 20, 0.05
-Latvia, 20, 0.24
-Azerbaijan, 20, 0.3
-Ukraine, 20, 0.36
-Sweden, 20, 2.96
-Denmark, 20, 1.82
-Norway, 20, 1.26
-Egypt, 20, 0.53
-Hungary, 20, 1.45
+China, 20, 0.65
+Colombia, 20, 0.3
+Mexico, 20, 1.4
+Armenia, 20, 0.15
+Thailand, 20, 0.28
+Philippines, 20, 0.63
+Russia, 20, 1.84
+Malta, 20, 0.12
+Paraguay, 20, 0.12
+Panama, 20, 0.07
+Greece, 20, 0.54
+Poland, 20, 1.59
+Nepal, 20, 0.04
+Latvia, 20, 0.21
+Azerbaijan, 20, 0.26
+Ukraine, 20, 0.31
+Sweden, 20, 2.55
+Denmark, 20, 1.57
+Norway, 20, 1.08
+Egypt, 20, 0.46
+Hungary, 20, 1.24
 Faroe Islands, 20, 0.02
-Madagascar, 20, 0.03
-Argentina, 20, 1.45
-Uruguay, 20, 0.24
-Austria, 20, 2.04
-Czech Republic, 20, 0.45
-Netherlands, 20, 1.97
-Scotland, 20, 0.32
-Ireland, 20, 0.71
+Madagascar, 20, 0.02
+Argentina, 20, 1.24
+Uruguay, 20, 0.21
+Austria, 20, 1.75
+Czech Republic, 20, 0.38
+Netherlands, 20, 1.69
+Scotland, 20, 0.28
+Ireland, 20, 0.61
 Rwanda, 20, 0.03
 Palau, 20, 0.01
-Croatia, 20, 0.48
+Croatia, 20, 0.41
 Suriname, 20, 0.06
-Belgium, 20, 1.88
-Gabon, 20, 0.04
-Cuba, 20, 0.46
-Libya, 20, 0.06
-Peru, 20, 0.27
-Chile, 20, 0.44
-Vietnam, 20, 0.19
-Slovenia, 20, 0.3
-Solomon Islands, 20, 0.1
-Algeria, 20, 0.15
-Slovakia, 20, 0.12
+Belgium, 20, 1.62
+Gabon, 20, 0.03
+Cuba, 20, 0.39
+Libya, 20, 0.05
+Peru, 20, 0.23
+Chile, 20, 0.38
+Vietnam, 20, 0.17
+Slovenia, 20, 0.26
+Solomon Islands, 20, 0.08
+Algeria, 20, 0.13
+Slovakia, 20, 0.1
 Namibia, 20, 0.02
-Finland, 20, 1.31
-Ghana, 20, 0.09
+Finland, 20, 1.13
+Ghana, 20, 0.07
 Mozambique, 20, 0.02
-Belarus, 20, 0.14
-Estonia, 20, 0.3
-Ecuador, 20, 0.18
-Zambia, 20, 0.04
-Venezuela, 20, 0.35
-Dominican Republic, 20, 0.14
-Puerto Rico, 20, 0.14
+Belarus, 20, 0.12
+Estonia, 20, 0.26
+Ecuador, 20, 0.15
+Zambia, 20, 0.03
+Venezuela, 20, 0.3
+Dominican Republic, 20, 0.12
+Puerto Rico, 20, 0.12
 Cook Islands, 20, 0.01
 Malawi, 20, 0.01
-Uganda, 20, 0.04
-Jersey, 20, 0.11
+Uganda, 20, 0.03
+Jersey, 20, 0.09
 Sierra Leone, 20, 0.06
-Guatemala, 20, 0.12
-Honduras, 20, 0.06
-Bolivia, 20, 0.09
-Albania, 20, 0.24
-Japan, 20, 1.61
-Isle of Man, 20, 0.03
-Palestine, 20, 0.11
-Bermuda, 20, 0.04
+Guatemala, 20, 0.1
+Honduras, 20, 0.05
+Bolivia, 20, 0.08
+Albania, 20, 0.2
+Japan, 20, 1.39
+Isle of Man, 20, 0.07
+Palestine, 20, 0.09
+Bermuda, 20, 0.03
 Georgia, 20, 0.05
-Monaco, 20, 0.13
-Central African Republic, 20, 0.02
-Singapore, 20, 0.14
-El Salvador, 20, 0.08
+Monaco, 20, 0.11
+Central African Republic, 20, 0.01
+Singapore, 20, 0.12
+El Salvador, 20, 0.07
 Cocos (Keeling) Islands, 20, 0.0
-Gibraltar, 20, 0.04
-Barbados, 20, 0.09
-Lithuania, 20, 0.1
-Lebanon, 20, 0.22
-Iraq, 20, 0.09
-Yemen, 20, 0.02
-Jordan, 20, 0.08
+Gibraltar, 20, 0.03
+Barbados, 20, 0.08
+Lithuania, 20, 0.08
+Lebanon, 20, 0.19
+Iraq, 20, 0.08
+Yemen, 20, 0.01
+Jordan, 20, 0.07
 Haiti, 20, 0.08
-South Korea, 20, 0.24
-Kenya, 20, 0.11
-Bosnia and Herzegovina, 20, 0.07
-Luxembourg, 20, 0.23
-Malaysia, 20, 0.13
+South Korea, 20, 0.21
+Kenya, 20, 0.09
+Bosnia and Herzegovina, 20, 0.06
+Luxembourg, 20, 0.2
+Malaysia, 20, 0.11
 Kyrgyzstan, 20, 0.01
-Ethiopia, 20, 0.06
-Nicaragua, 20, 0.06
+Ethiopia, 20, 0.05
+Nicaragua, 20, 0.05
 Cape Verde, 20, 0.01
 Chad, 20, 0.01
-Liechtenstein, 20, 0.03
+Liechtenstein, 20, 0.02
 Norfolk Island, 20, 0.0
 Liberia, 20, 0.04
 Guinea-Bissau, 20, 0.01
 Vatican City, 20, 0.01
-Syria, 20, 0.11
+Syria, 20, 0.09
 United States Virgin Islands, 20, 0.01
-Morocco, 20, 0.15
-Myanmar, 20, 0.19
+Morocco, 20, 0.13
+Myanmar, 20, 0.16
 Afghanistan, 20, 0.06
-Cyprus, 20, 0.07
-Nigeria, 20, 0.08
+Cyprus, 20, 0.06
+Nigeria, 20, 0.07
 Somalia, 20, 0.04
-Kazakhstan, 20, 0.03
+Kazakhstan, 20, 0.02
 Saudi Arabia, 20, 0.06
-Tunisia, 20, 0.09
-Uzbekistan, 20, 0.05
+Tunisia, 20, 0.08
+Uzbekistan, 20, 0.04
 Kuwait, 20, 0.01
 Senegal, 20, 0.01
 Mongolia, 20, 0.04
@@ -279,8 +282,8 @@ Mali, 20, 0.01
 Costa Rica, 20, 0.05
 Papua New Guinea, 20, 0.02
 Aruba, 20, 0.0
-United Kingdom Northern Ireland, 20, 0.07
-Iceland, 20, 0.06
+United Kingdom Northern Ireland, 20, 0.06
+Iceland, 20, 0.05
 North Korea, 20, 0.05
 North Macedonia, 20, 0.01
 Montenegro, 20, 0.01
@@ -289,26 +292,26 @@ Cambodia, 20, 0.04
 Saint Martin, 20, 0.01
 Grenada, 20, 0.01
 Belize, 20, 0.01
-Eritrea, 20, 0.02
-Guyana, 20, 0.03
+Eritrea, 20, 0.01
+Guyana, 20, 0.02
 Democratic Republic of the Congo, 20, 0.02
-Zimbabwe, 20, 0.06
+Zimbabwe, 20, 0.05
 New Caledonia, 20, 0.01
 Bahrain, 20, 0.01
 Bhutan, 20, 0.0
-Laos, 20, 0.03
+Laos, 20, 0.02
 Tanzania, 20, 0.02
 Dominica, 20, 0.0
 Kosovo, 20, 0.01
 Tobago, 20, 0.0
-Montserrat, 20, 0.04
+Montserrat, 20, 0.03
 Equatorial Guinea, 20, 0.0
 Tonga, 20, 0.01
 Tuvalu, 20, 0.0
 Greenland, 20, 0.01
 Falkland Islands, 20, 0.01
 Transnistria, 20, 0.01
-Wales, 20, 0.04
+Wales, 20, 0.03
 French Guiana, 20, 0.01
 Lesotho, 20, 0.01
 Nagorno-Karabakh Republic, 20, 0.0
@@ -318,7 +321,7 @@ United Arab Emirates, 20, 0.01
 Djibouti, 20, 0.0
 Moldova, 20, 0.01
 Saint Lucia, 20, 0.01
-Sudan, 20, 0.02
+Sudan, 20, 0.01
 Antigua, 20, 0.0
 Republic of China (Taiwan), 20, 0.02
 Niger, 20, 0.0
@@ -327,7 +330,7 @@ Brunei, 20, 0.01
 French Polynesia, 20, 0.01
 Marshall Islands, 20, 0.01
 Pitcairn Islands, 20, 0.01
-Guam, 20, 0.02
+Guam, 20, 0.01
 Mauritius, 20, 0.01
 Burundi, 20, 0.01
 Abkhazia, 20, 0.01
@@ -346,200 +349,201 @@ Botswana, 20, 0.01
 Somaliland, 20, 0.0
 Swaziland, 20, 0.01
 Kiribati, 20, 0.0
-Ireland, 21, 0.48
-Turkey, 21, 0.9
-Serbia, 21, 0.99
-Bosnia and Herzegovina, 21, 0.24
-Switzerland, 21, 1.12
-Bangladesh, 21, 0.73
-Canada, 21, 4.82
-India, 21, 4.65
-Netherlands, 21, 1.86
-UK, 21, 11.26
-Malta, 21, 0.11
-Singapore, 21, 0.4
-Indonesia, 21, 0.64
+Ireland, 21, 0.4
+Turkey, 21, 0.76
+Serbia, 21, 0.83
+Bosnia and Herzegovina, 21, 0.2
+Switzerland, 21, 0.94
+USA, 21, 15.77
+Bangladesh, 21, 0.61
+Canada, 21, 4.06
+India, 21, 3.92
+Netherlands, 21, 1.57
+UK, 21, 9.47
+Malta, 21, 0.09
+Singapore, 21, 0.34
+Indonesia, 21, 0.54
 American Samoa, 21, 0.03
-Sri Lanka, 21, 0.55
-South Africa, 21, 1.17
-Egypt, 21, 0.57
-Iran, 21, 0.88
-Pakistan, 21, 1.31
-France, 21, 5.41
-Morocco, 21, 0.24
-Italy, 21, 4.07
-Zimbabwe, 21, 0.22
-Mexico, 21, 2.42
-Spain, 21, 2.44
-Nigeria, 21, 0.42
+Sri Lanka, 21, 0.47
+South Africa, 21, 0.99
+Egypt, 21, 0.48
+Iran, 21, 0.74
+Pakistan, 21, 1.1
+France, 21, 4.55
+Morocco, 21, 0.2
+Italy, 21, 3.43
+Zimbabwe, 21, 0.19
+Mexico, 21, 2.04
+Spain, 21, 2.05
+Nigeria, 21, 0.35
 Angola, 21, 0.04
-Argentina, 21, 1.52
-Portugal, 21, 0.61
-Croatia, 21, 1.04
-Bolivia, 21, 0.11
-Philippines, 21, 1.36
-Armenia, 21, 0.24
-Paraguay, 21, 0.13
-Azerbaijan, 21, 0.32
-Albania, 21, 0.26
-Russia, 21, 4.27
-Poland, 21, 1.56
-Bulgaria, 21, 0.54
-Ukraine, 21, 0.76
-Belarus, 21, 0.1
-Romania, 21, 0.84
-Sweden, 21, 1.65
-Thailand, 21, 0.43
-Cyprus, 21, 0.09
-Hungary, 21, 1.28
-Luxembourg, 21, 0.1
-Austria, 21, 1.05
-Germany, 21, 5.39
-Greece, 21, 0.84
-Kyrgyzstan, 21, 0.04
-Moldova, 21, 0.1
-Kazakhstan, 21, 0.1
-Slovenia, 21, 0.47
-Czech Republic, 21, 0.93
-Australia, 21, 2.7
-Solomon Islands, 21, 0.06
-New Zealand, 21, 1.31
-Belgium, 21, 1.24
-Rwanda, 21, 0.03
-South Korea, 21, 0.45
-Cameroon, 21, 0.1
-Colombia, 21, 0.53
-Japan, 21, 1.69
-Belize, 21, 0.05
-Dominican Republic, 21, 0.24
-Guam, 21, 0.06
-Kenya, 21, 0.38
-Guatemala, 21, 0.14
+Argentina, 21, 1.28
+Portugal, 21, 0.51
+Croatia, 21, 0.87
+Bolivia, 21, 0.09
+Philippines, 21, 1.15
+Armenia, 21, 0.2
+Paraguay, 21, 0.11
+Azerbaijan, 21, 0.27
+Albania, 21, 0.21
+Russia, 21, 3.59
+Poland, 21, 1.31
+Bulgaria, 21, 0.46
+Ukraine, 21, 0.64
+Belarus, 21, 0.09
+Romania, 21, 0.7
+Sweden, 21, 1.39
+Thailand, 21, 0.36
+Cyprus, 21, 0.08
+Hungary, 21, 1.07
+Luxembourg, 21, 0.08
+Austria, 21, 0.89
+Germany, 21, 4.53
+Greece, 21, 0.71
+Kyrgyzstan, 21, 0.03
+Moldova, 21, 0.08
+Kazakhstan, 21, 0.08
+Slovenia, 21, 0.39
+Czech Republic, 21, 0.78
+Australia, 21, 2.27
+Solomon Islands, 21, 0.05
+New Zealand, 21, 1.11
+Belgium, 21, 1.05
+Rwanda, 21, 0.02
+South Korea, 21, 0.38
+Cameroon, 21, 0.09
+Colombia, 21, 0.45
+Japan, 21, 1.42
+Belize, 21, 0.04
+Dominican Republic, 21, 0.2
+Guam, 21, 0.05
+Kenya, 21, 0.32
+Guatemala, 21, 0.12
 Mauritius, 21, 0.04
-Brazil, 21, 1.7
-Sierra Leone, 21, 0.08
-Finland, 21, 0.86
-Afghanistan, 21, 0.44
-Norway, 21, 0.88
-Denmark, 21, 0.64
+Brazil, 21, 1.43
+Sierra Leone, 21, 0.06
+Finland, 21, 0.72
+Afghanistan, 21, 0.37
+Norway, 21, 0.74
+Denmark, 21, 0.54
 Palau, 21, 0.01
-Vietnam, 21, 0.14
-Somalia, 21, 0.2
-Scotland, 21, 0.18
-Venezuela, 21, 0.61
-Chile, 21, 0.38
-Guinea-Bissau, 21, 0.03
+Vietnam, 21, 0.12
+Somalia, 21, 0.17
+Scotland, 21, 0.16
+Venezuela, 21, 0.51
+Chile, 21, 0.32
+Guinea-Bissau, 21, 0.02
 Guyana, 21, 0.04
-Syria, 21, 0.34
+Syria, 21, 0.29
 Seychelles, 21, 0.01
-Lebanon, 21, 0.27
-Haiti, 21, 0.15
-Libya, 21, 0.18
-Puerto Rico, 21, 0.18
-Peru, 21, 0.25
-Ecuador, 21, 0.13
-Algeria, 21, 0.2
-Democratic Republic of the Congo, 21, 0.08
-Uruguay, 21, 0.29
-Cuba, 21, 0.36
-Botswana, 21, 0.03
+Lebanon, 21, 0.23
+Haiti, 21, 0.13
+Libya, 21, 0.15
+Puerto Rico, 21, 0.15
+Peru, 21, 0.21
+Ecuador, 21, 0.11
+Algeria, 21, 0.17
+Democratic Republic of the Congo, 21, 0.07
+Isle of Man, 21, 0.09
+Uruguay, 21, 0.24
+Cuba, 21, 0.3
+Botswana, 21, 0.02
 Montenegro, 21, 0.02
-Uzbekistan, 21, 0.06
-Ethiopia, 21, 0.06
-Ghana, 21, 0.22
-El Salvador, 21, 0.13
-Costa Rica, 21, 0.14
+Uzbekistan, 21, 0.05
+Ethiopia, 21, 0.05
+Ghana, 21, 0.18
+El Salvador, 21, 0.11
+Costa Rica, 21, 0.12
 Republic of Congo, 21, 0.01
 French Polynesia, 21, 0.02
-Nicaragua, 21, 0.06
+Nicaragua, 21, 0.05
 Vatican City, 21, 0.02
-Lithuania, 21, 0.13
-Kosovo, 21, 0.05
-Saudi Arabia, 21, 0.26
-Jordan, 21, 0.17
-Latvia, 21, 0.14
-Nepal, 21, 0.18
-Jersey, 21, 0.03
-Burkina Faso, 21, 0.03
-Senegal, 21, 0.08
-Montserrat, 21, 0.04
-Yemen, 21, 0.11
-United Arab Emirates, 21, 0.09
+Lithuania, 21, 0.11
+Kosovo, 21, 0.04
+Saudi Arabia, 21, 0.21
+Jordan, 21, 0.14
+Latvia, 21, 0.12
+Nepal, 21, 0.15
+Jersey, 21, 0.02
+Burkina Faso, 21, 0.02
+Senegal, 21, 0.06
+Montserrat, 21, 0.03
+Yemen, 21, 0.09
+United Arab Emirates, 21, 0.08
 Cook Islands, 21, 0.01
-Iraq, 21, 0.5
+Iraq, 21, 0.42
 Papua New Guinea, 21, 0.04
-Malaysia, 21, 0.47
+Malaysia, 21, 0.39
 Nagorno-Karabakh Republic, 21, 0.01
-Estonia, 21, 0.19
-Honduras, 21, 0.17
-Panama, 21, 0.08
-Bermuda, 21, 0.05
+Estonia, 21, 0.16
+Honduras, 21, 0.14
+Panama, 21, 0.06
+Bermuda, 21, 0.04
 Faroe Islands, 21, 0.03
-Barbados, 21, 0.07
-Myanmar, 21, 0.24
-Palestine, 21, 0.18
-Sudan, 21, 0.08
-Tunisia, 21, 0.17
-Mali, 21, 0.06
+Barbados, 21, 0.06
+Myanmar, 21, 0.2
+Palestine, 21, 0.15
+Sudan, 21, 0.07
+Tunisia, 21, 0.14
+Mali, 21, 0.05
 Niger, 21, 0.01
-Bahrain, 21, 0.08
-Kuwait, 21, 0.06
-Tajikistan, 21, 0.04
+Bahrain, 21, 0.07
+Kuwait, 21, 0.05
+Tajikistan, 21, 0.03
 Central African Republic, 21, 0.02
 Eritrea, 21, 0.02
-Fiji, 21, 0.13
+Fiji, 21, 0.11
 Tonga, 21, 0.01
-China, 21, 0.99
-Iceland, 21, 0.05
-Gibraltar, 21, 0.06
+China, 21, 0.83
+Iceland, 21, 0.04
+Gibraltar, 21, 0.05
 Mozambique, 21, 0.03
 Antigua, 21, 0.02
 Guernsey, 21, 0.04
-Malawi, 21, 0.06
-Monaco, 21, 0.12
-Slovakia, 21, 0.29
-Saint Lucia, 21, 0.05
-United Kingdom Northern Ireland, 21, 0.05
-Wales, 21, 0.07
-Namibia, 21, 0.1
-New Caledonia, 21, 0.03
-Trinidad, 21, 0.1
-Cambodia, 21, 0.1
+Malawi, 21, 0.05
+Monaco, 21, 0.1
+Slovakia, 21, 0.25
+Saint Lucia, 21, 0.04
+United Kingdom Northern Ireland, 21, 0.04
+Wales, 21, 0.06
+Namibia, 21, 0.08
+New Caledonia, 21, 0.02
+Trinidad, 21, 0.08
+Cambodia, 21, 0.08
 Laos, 21, 0.02
-Zambia, 21, 0.14
-North Korea, 21, 0.05
-Qatar, 21, 0.04
+Zambia, 21, 0.12
+North Korea, 21, 0.04
+Qatar, 21, 0.03
 Norfolk Island, 21, 0.01
 Comoros, 21, 0.01
 San Marino, 21, 0.01
-Madagascar, 21, 0.03
-Uganda, 21, 0.13
+Madagascar, 21, 0.02
+Uganda, 21, 0.11
 Cape Verde, 21, 0.01
-Georgia, 21, 0.03
+Georgia, 21, 0.02
 Turks and Caicos Islands, 21, 0.01
 Saint Kitts and Nevis, 21, 0.01
-Nauru, 21, 0.03
-Isle of Man, 21, 0.01
-Tanzania, 21, 0.1
-Cayman Islands, 21, 0.03
+Nauru, 21, 0.02
+Tanzania, 21, 0.09
+Cayman Islands, 21, 0.02
 Chad, 21, 0.01
-Liberia, 21, 0.06
+Liberia, 21, 0.05
 Swaziland, 21, 0.01
 Turkmenistan, 21, 0.02
-Mongolia, 21, 0.03
-Vanuatu, 21, 0.03
+Mongolia, 21, 0.02
+Vanuatu, 21, 0.02
 Grenada, 21, 0.03
 Northern Mariana Islands, 21, 0.03
-Suriname, 21, 0.03
-Republic of China (Taiwan), 21, 0.04
+Suriname, 21, 0.02
+Republic of China (Taiwan), 21, 0.03
 Benin, 21, 0.03
 Liechtenstein, 21, 0.03
 Abkhazia, 21, 0.01
-Samoa, 21, 0.04
+Samoa, 21, 0.03
 Gabon, 21, 0.02
 Federated States of Micronesia, 21, 0.02
 Djibouti, 21, 0.01
-United States Virgin Islands, 21, 0.03
+United States Virgin Islands, 21, 0.02
 Western Sahara, 21, 0.01
 Sint Maarten, 21, 0.01
 Tuvalu, 21, 0.01

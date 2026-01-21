@@ -79,7 +79,7 @@ for century in centuries:
                 if place == 'England' or place == 'Wales' or place == 'Scotland':
                     place = 'UK'
                 # any state from the US is just counted as US
-                if place in states:
+                if place in states or place == 'United States of America' or place == 'United States':
                     place = 'USA'
 
                 # Only count countries 
@@ -93,12 +93,10 @@ for century in centuries:
         
         # if it's a string i.e. 'Dublin'
         else:                       
-            places = places.title()
-
             if places == 'England' or places == 'Wales' or places == 'Scotland':
                 places = 'UK'
             # any state from the US is just counted as US
-            if places in states:
+            if places in states or places == 'United States of America' or places == 'United States':
                 places = 'USA'
             
             # if it's a capital make it the corresponding country
