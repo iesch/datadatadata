@@ -137,7 +137,7 @@ for century in deathplace:
                 else:
                     deathcount[century][places] = 1
 
-# turning final_deathcount into a csv
+# turning final_deathcount into a csv to use for plotting
 
 for century in deathcount:
     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
