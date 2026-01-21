@@ -131,8 +131,7 @@ for century in deathplace:
                 else:
                     deathcount[century][places] = 1
 
-<<<<<<< HEAD
-# normalizing
+# computing percentages
 perc_deathcount = {'19': Counter(), '21': Counter()}
 
 for century in deathcount:
@@ -144,18 +143,8 @@ print(perc_deathcount['19'])
 print(perc_deathcount['21'])
 
 # # turning final_deathcount into a csv
-# for century in deathcount:
+# for century in deathcount: 
 #     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
 #         file.write('Country, Deathcount\n')
 #         for key, value in deathcount[century].items():
-#             file.write(f'{key}, {value}\n')
-=======
-
-# turning final_deathcount into a csv to use for plotting
-
-for century in deathcount:
-     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
-         file.write('Country, Deathcount\n')
-         for key, value in final_deathcount[century].items():
-             file.write(f'{key}, {value}\n')
->>>>>>> 5ae2e0799b666eb214358b52ebfe6ab130f12893
+#             file.write(f'{key}, {value}\n') 
