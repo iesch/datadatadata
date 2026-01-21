@@ -36,8 +36,8 @@ for state in states:
 # initialize variables
 total_wikicount = {'19': 0, '21': 0}
 deathplace = {'19': [], '21': []}
-deathcount = {'19': {}, '21': {}}
-final_deathcount = {'19': Counter(), '21': Counter()}
+deathcount = {'19': Counter(), '21': Counter()}
+
 
 # ------------------
 # FILTERING FOR TIME
@@ -105,9 +105,6 @@ for century in deathplace:
                     # counter 
                     if place in deathcount[century]:
                         deathcount[century][place] += 1
-                        # filter for values above 10
-                        if deathcount[century][place] >= 10:
-                            final_deathcount[century][place] = deathcount[century][place]
                     else:
                         deathcount[century][place] = 1
         
@@ -130,17 +127,24 @@ for century in deathplace:
                 
                 # counter
                 if places in deathcount[century]:   
-                    deathcount[century][places] += 1
-                    # filter for values above 10
-                    if deathcount[century][places] >= 10:
-                        final_deathcount[century][places] = deathcount[century][places]
+                    deathcount[century][places] += 1          
                 else:
                     deathcount[century][places] = 1
 
-# turning final_deathcount into a csv to use for plotting
+# normalizing
+perc_deathcount = {'19': Counter(), '21': Counter()}
 
 for century in deathcount:
-    with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
-        file.write('Country, Deathcount\n')
-        for key, value in final_deathcount[century].items():
-            file.write(f'{key}, {value}\n')
+    total = sum((deathcount[century].values()))
+    for country in deathcount[century]:
+        perc_deathcount[century][country] = round((deathcount[century][country] / total) * 100, 2)
+
+print(perc_deathcount['19'])
+print(perc_deathcount['21'])
+
+# # turning final_deathcount into a csv
+# for century in deathcount:
+#     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+#         file.write('Country, Deathcount\n')
+#         for key, value in deathcount[century].items():
+#             file.write(f'{key}, {value}\n')
