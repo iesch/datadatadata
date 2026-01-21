@@ -9,7 +9,7 @@ import string
 # load the wiki data
 data = []
 alphabet = list(string.ascii_uppercase)
-for letter in alphabet :
+for letter in alphabet:
     with open(f'Data/People/{letter}_people.json') as file:
         data.append(json.load(file))
 
@@ -34,10 +34,10 @@ for state in states:
     states.add(state.lower())
 
 # initialize variables
+perc_deathcount = {'19': Counter(), '21': Counter()}
 total_wikicount = {'19': 0, '21': 0}
 deathplace = {'19': [], '21': []}
 deathcount = {'19': Counter(), '21': Counter()}
-
 
 # ------------------
 # FILTERING FOR TIME
@@ -131,20 +131,21 @@ for century in deathplace:
                 else:
                     deathcount[century][places] = 1
 
-# computing percentages
-perc_deathcount = {'19': Counter(), '21': Counter()}
+        # -----------------------------
+        # SAVING RESULTS IN .CSV FORMAT
+        # -----------------------------
 
-for century in deathcount:
+    # computing percentages
     total = sum((deathcount[century].values()))
     for country in deathcount[century]:
         perc_deathcount[century][country] = round((deathcount[century][country] / total) * 100, 2)
 
-print(perc_deathcount['19'])
-print(perc_deathcount['21'])
-
-# # turning final_deathcount into a csv
-# for century in deathcount: 
-#     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
-#         file.write('Country, Deathcount\n')
-#         for key, value in deathcount[century].items():
-#             file.write(f'{key}, {value}\n') 
+    # turning final_deathcount and perc_deathcount into a csv 
+    with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+        file.write('Country, Deathcount\n')
+        for key, value in deathcount[century].items():
+            file.write(f'{key}, {value}\n')
+    with open(f'Results/percentage_deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+        file.write('Country, Percentage_Deathcount\n')
+        for key, value in perc_deathcount[century].items():
+            file.write(f'{key}, {value}\n')

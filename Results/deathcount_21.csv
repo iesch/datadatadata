@@ -1,123 +1,218 @@
 Country, Deathcount
-united states, 2940
-india, 730
-russia, 670
-ukraine, 119
-poland, 245
-france, 849
-united kingdom, 2162
-italy, 639
-sweden, 259
-hungary, 200
-germany, 845
-netherlands, 292
-spain, 382
-philippines, 214
-mexico, 380
-argentina, 239
-belgium, 195
-canada, 756
-croatia, 163
-australia, 424
-romania, 131
-austria, 165
-brazil, 267
+ireland, 75
+turkey, 141
+serbia, 155
+bosnia and herzegovina, 37
 switzerland, 175
-portugal, 96
-pakistan, 205
-greece, 132
-colombia, 83
-norway, 138
-iran, 138
+united states, 2940
+bangladesh, 114
+canada, 756
+india, 730
+netherlands, 292
+united kingdom, 2162
+malta, 17
+singapore, 63
+indonesia, 101
+trinidad and tobago, 9
+american samoa, 5
+sri lanka, 87
 south africa, 184
 egypt, 89
-serbia, 155
-finland, 135
-turkey, 141
-denmark, 100
+iran, 138
+pakistan, 205
+france, 849
 morocco, 38
-bangladesh, 114
-afghanistan, 69
-iraq, 78
-somalia, 31
-indonesia, 101
+italy, 639
+zimbabwe, 35
+mexico, 380
+spain, 382
 nigeria, 66
-kenya, 60
-new zealand, 206
-malaysia, 73
+angola, 7
+argentina, 239
+portugal, 96
+croatia, 163
+bolivia, 17
+philippines, 214
+armenia, 37
+paraguay, 21
+azerbaijan, 50
+albania, 40
+russia, 670
+poland, 245
+bulgaria, 85
+ukraine, 119
+belarus, 16
+romania, 131
+sweden, 259
 thailand, 68
-syria, 54
-algeria, 32
-sri lanka, 87
-saudi arabia, 40
-ireland, 75
-china, 155
-japan, 265
+northern cyprus, 9
+hungary, 200
+luxembourg, 15
+austria, 165
+germany, 845
+greece, 132
+kyrgyzstan, 6
+moldova, 15
+kazakhstan, 15
+slovenia, 73
+czech republic, 146
+australia, 424
+solomon islands, 10
+new zealand, 206
+belgium, 195
+rwanda, 4
 south korea, 71
-singapore, 63
-chile, 60
+cameroon, 16
+colombia, 83
+japan, 265
+belize, 8
+dominican republic, 38
+guam, 9
+kenya, 60
+guatemala, 22
+mauritius, 7
+brazil, 267
+sierra leone, 12
+finland, 135
+afghanistan, 69
+norway, 138
+denmark, 100
+palau, 1
+vietnam, 22
+somalia, 31
+scotland, 29
 venezuela, 96
+chile, 60
+guinea-bissau, 4
+guyana, 7
+syria, 54
+seychelles, 1
+lebanon, 43
+haiti, 25
+libya, 28
+puerto rico, 28
 peru, 39
+ecuador, 21
+algeria, 32
+democratic republic of the congo, 13
+isle of man, 16
 uruguay, 45
 cuba, 56
-libya, 28
-bulgaria, 85
-slovenia, 73
-albania, 40
-ghana, 34
-paraguay, 21
-zimbabwe, 35
-czech republic, 146
-scotland, 29
-azerbaijan, 50
-lebanon, 43
-isle of man, 16
-bosnia and herzegovina, 37
-dominican republic, 38
-tunisia, 26
-armenia, 37
-yemen, 17
-nepal, 28
-zambia, 22
-estonia, 30
-jordan, 27
-puerto rico, 28
-uganda, 20
-slovakia, 46
-haiti, 25
-honduras, 27
-palestine, 28
-monaco, 19
-malta, 17
-sierra leone, 12
-fiji, 20
-guatemala, 22
-ecuador, 21
-bolivia, 17
-latvia, 22
-bahrain, 13
-lithuania, 20
-cambodia, 15
-myanmar, 37
-costa rica, 22
-tanzania, 16
-cameroon, 16
-el salvador, 20
-namibia, 15
-sudan, 13
-vietnam, 22
-moldova, 15
-united arab emirates, 14
-kazakhstan, 15
-belarus, 16
-democratic republic of the congo, 13
-senegal, 12
-luxembourg, 15
-wales, 11
-panama, 12
-barbados, 11
-mali, 10
-ethiopia, 10
-solomon islands, 10
+botswana, 4
+montenegro, 3
 uzbekistan, 10
+ethiopia, 10
+ghana, 34
+el salvador, 20
+costa rica, 22
+republic of the congo, 3
+french polynesia, 3
+nicaragua, 9
+vatican city, 3
+lithuania, 20
+kosovo, 8
+saudi arabia, 40
+jordan, 27
+latvia, 22
+nepal, 28
+jersey, 4
+burkina faso, 4
+senegal, 12
+montserrat, 6
+yemen, 17
+united arab emirates, 14
+cook islands, 2
+iraq, 78
+papua new guinea, 7
+malaysia, 73
+nagorno-karabakh republic, 1
+estonia, 30
+honduras, 27
+panama, 12
+bermuda, 8
+faroe islands, 5
+barbados, 11
+myanmar, 37
+palestine, 28
+sudan, 13
+tunisia, 26
+mali, 10
+niger, 2
+bahrain, 13
+kuwait, 9
+tajikistan, 6
+central african republic, 3
+eritrea, 3
+fiji, 20
+tonga, 2
+china, 155
+iceland, 8
+gibraltar, 9
+mozambique, 5
+guernsey, 7
+malawi, 9
+monaco, 19
+slovakia, 46
+saint lucia, 8
+united kingdom northern ireland, 8
+wales, 11
+namibia, 15
+new caledonia, 4
+cambodia, 15
+laos, 3
+zambia, 22
+north korea, 8
+qatar, 6
+norfolk island, 1
+comoros, 1
+san marino, 2
+madagascar, 4
+uganda, 20
+cape verde, 2
+georgia, 4
+turks and caicos islands, 1
+saint kitts and nevis, 1
+nauru, 4
+tanzania, 16
+cayman islands, 4
+chad, 1
 liberia, 10
+swaziland, 1
+turkmenistan, 3
+mongolia, 4
+vanuatu, 4
+grenada, 5
+northern mariana islands, 5
+suriname, 4
+republic of china (taiwan), 6
+benin, 5
+liechtenstein, 5
+abkhazia, 2
+samoa, 6
+gabon, 3
+federated states of micronesia, 3
+djibouti, 1
+united states virgin islands, 4
+british virgin islands, 4
+western sahara, 1
+sint maarten, 2
+tuvalu, 2
+maldives, 2
+south sudan, 1
+guinea, 5
+east timor (timor-leste), 1
+easter island, 1
+marshall islands, 2
+oman, 2
+equatorial guinea, 1
+south ossetia, 1
+burundi, 2
+togo, 1
+saint vincent and the grenadines, 1
+macedonia, 3
+brunei, 1
+dominica, 1
+antigua and barbuda, 2
+niue, 2
+pitcairn islands, 1
+wallis and futuna, 1
