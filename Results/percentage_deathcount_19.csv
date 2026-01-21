@@ -1,68 +1,67 @@
 region, Percentage_Deathcount
-Malta, 0.35
+Malta, 0.36
 Turkey, 0.11
-United Kingdom, 5.26
+United Kingdom, 5.37
 Iran, 0.07
-Italy, 3.21
-United States, 14.94
-France, 15.51
-China, 0.57
-Russia, 1.57
-Greece, 0.39
-Finland, 0.37
-Sweden, 1.83
-Denmark, 2.45
-Latvia, 0.17
-Norway, 1.18
-Austria, 4.48
-Australia, 4.04
-Scotland, 2.77
-Vietnam, 0.35
-Uganda, 0.15
+Italy, 3.28
+United States, 15.24
+France, 15.82
+China, 0.58
+Russia, 1.6
+Greece, 0.4
+Finland, 0.38
+Sweden, 1.87
+Denmark, 2.5
+Latvia, 0.18
+Norway, 1.2
+Austria, 4.57
+Australia, 4.12
+Vietnam, 0.36
+Uganda, 0.16
 Bermuda, 0.13
-Wales, 0.55
-Netherlands, 1.9
-Belgium, 2.75
+Netherlands, 1.94
+Belgium, 2.81
 Madagascar, 0.09
-Chile, 1.44
-Philippines, 0.28
-Bulgaria, 0.26
-Canada, 1.92
-Myanmar, 0.15
-Germany, 4.72
-Hungary, 0.39
-Spain, 2.53
+Chile, 1.47
+Philippines, 0.29
+Bulgaria, 0.27
+Canada, 1.96
+Myanmar, 0.16
+Germany, 4.81
+Hungary, 0.4
+Spain, 2.59
 Slovakia, 0.2
-Romania, 0.61
-Poland, 1.03
+Romania, 0.62
+Poland, 1.05
 Falkland Islands, 0.04
-Peru, 0.83
-Mexico, 1.53
+Peru, 0.85
+Mexico, 1.56
 Ecuador, 0.31
 Pakistan, 0.11
-Brazil, 0.83
-Argentina, 1.42
-Ireland, 1.38
+Brazil, 0.85
+Argentina, 1.45
+Scotland, 1.4
+Ireland, 1.4
 Estonia, 0.2
 Haiti, 0.33
-New Zealand, 1.14
+New Zealand, 1.16
 Liberia, 0.22
-Switzerland, 1.42
+Switzerland, 1.45
 Zimbabwe, 0.02
-Czech Republic, 0.5
-Thailand, 0.74
+Czech Republic, 0.51
+Thailand, 0.76
 Montserrat, 0.2
-Colombia, 0.39
-Portugal, 0.74
+Colombia, 0.38
+Portugal, 0.76
 Guernsey, 0.09
-Venezuela, 0.48
-Sri Lanka, 0.24
+Venezuela, 0.49
+Sri Lanka, 0.25
 Saudi Arabia, 0.02
 Mauritania, 0.02
 Kosovo, 0.04
-Japan, 1.29
-Cuba, 0.28
-Bolivia, 0.26
+Japan, 1.31
+Cuba, 0.29
+Bolivia, 0.27
 Yemen, 0.04
 Nepal, 0.09
 Solomon Islands, 0.04
@@ -70,26 +69,27 @@ Algeria, 0.11
 Belarus, 0.02
 Iceland, 0.04
 El Salvador, 0.13
-Costa Rica, 0.15
+Costa Rica, 0.16
 Puerto Rico, 0.07
 Barbados, 0.09
 Fiji, 0.07
 Gibraltar, 0.09
 Isle Of Man, 0.07
-India, 0.7
+India, 0.71
 Malaysia, 0.09
+Wales, 0.02
 South Korea, 0.09
-Paraguay, 0.15
 Indonesia, 0.04
+Paraguay, 0.11
 Dominican Republic, 0.13
-Lebanon, 0.15
+Lebanon, 0.16
 Luxembourg, 0.13
 Greenland, 0.04
 Angola, 0.04
 South Africa, 0.33
 Mauritius, 0.11
-Egypt, 0.35
-Slovenia, 0.15
+Egypt, 0.36
+Slovenia, 0.16
 Libya, 0.04
 Nicaragua, 0.02
 Uruguay, 0.33
@@ -116,7 +116,7 @@ Sudan, 0.04
 Monaco, 0.09
 Iraq, 0.02
 Honduras, 0.07
-Guatemala, 0.24
+Guatemala, 0.25
 Syria, 0.04
 Panama, 0.02
 Serbia, 0.11

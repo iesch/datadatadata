@@ -1,94 +1,93 @@
 region, Percentage_Deathcount
-Ireland, 0.42
-Turkey, 0.79
-Serbia, 0.87
+Ireland, 0.43
+Turkey, 0.8
+Serbia, 0.88
 Bosnia And Herzegovina, 0.21
-Switzerland, 0.98
-United States, 16.48
-Bangladesh, 0.64
-Canada, 4.24
-India, 4.09
-Netherlands, 1.64
-United Kingdom, 3.71
+Switzerland, 1.0
+United States, 16.77
+Bangladesh, 0.65
+Canada, 4.31
+India, 4.16
+Netherlands, 1.67
+United Kingdom, 3.77
 Malta, 0.1
-Singapore, 0.35
-Indonesia, 0.57
+Singapore, 0.36
+Indonesia, 0.58
 Trinidad And Tobago, 0.05
 American Samoa, 0.03
-Sri Lanka, 0.49
-South Africa, 1.03
-Egypt, 0.5
-Iran, 0.77
-Pakistan, 1.15
-France, 4.76
-Morocco, 0.21
-Italy, 3.58
+Sri Lanka, 0.5
+South Africa, 1.05
+Egypt, 0.51
+Iran, 0.79
+Pakistan, 1.17
+France, 4.84
+Morocco, 0.22
+Italy, 3.65
 Zimbabwe, 0.2
-Mexico, 2.13
-Spain, 2.14
-Nigeria, 0.37
+Mexico, 2.17
+Spain, 2.18
+Nigeria, 0.38
 Angola, 0.04
-Argentina, 1.34
-Portugal, 0.54
-Croatia, 0.91
+Argentina, 1.36
+Portugal, 0.55
+Croatia, 0.93
 Bolivia, 0.1
-Philippines, 1.2
+Philippines, 1.22
 Armenia, 0.21
-Paraguay, 0.16
-Azerbaijan, 0.28
-Albania, 0.22
-Russia, 3.76
-Poland, 1.37
+Paraguay, 0.12
+Azerbaijan, 0.29
+Albania, 0.23
+Russia, 3.82
+Poland, 1.4
 Bulgaria, 0.48
-Ukraine, 0.67
+Ukraine, 0.68
 Belarus, 0.09
-Romania, 0.73
-Sweden, 1.45
-Thailand, 0.38
+Romania, 0.75
+Sweden, 1.48
+Thailand, 0.39
 Northern Cyprus, 0.05
-Hungary, 1.12
-Luxembourg, 0.08
-Austria, 0.93
-Germany, 4.74
-Greece, 0.74
+Hungary, 1.14
+Luxembourg, 0.09
+Austria, 0.94
+Germany, 4.82
+Greece, 0.75
 Kyrgyzstan, 0.03
-Moldova, 0.08
-Kazakhstan, 0.08
-Slovenia, 0.41
-Czech Republic, 0.82
-Australia, 2.38
+Moldova, 0.09
+Kazakhstan, 0.09
+Slovenia, 0.42
+Czech Republic, 0.83
+Australia, 2.42
 Solomon Islands, 0.06
-New Zealand, 1.15
-Belgium, 1.09
+New Zealand, 1.18
+Belgium, 1.11
 Rwanda, 0.02
-South Korea, 0.4
-Cameroon, 0.11
-Colombia, 0.5
-Scotland, 1.14
-Japan, 1.49
-Belize, 0.04
-Dominican Republic, 0.21
+South Korea, 0.41
+Cameroon, 0.09
+Colombia, 0.47
+Japan, 1.51
+Belize, 0.05
+Dominican Republic, 0.22
 Guam, 0.05
 Kenya, 0.34
-Guatemala, 0.12
+Guatemala, 0.13
 Mauritius, 0.04
 Brazil, 1.52
 Sierra Leone, 0.07
-Finland, 0.76
+Finland, 0.77
 Afghanistan, 0.39
-Norway, 0.77
-Denmark, 0.56
+Norway, 0.79
+Denmark, 0.57
 Palau, 0.01
-Vietnam, 0.12
-Somalia, 0.17
-Wales, 0.62
-Venezuela, 0.54
+Vietnam, 0.13
+Somalia, 0.18
+Scotland, 0.17
+Venezuela, 0.55
 Chile, 0.34
 Guinea-Bissau, 0.02
 Guyana, 0.04
-Syria, 0.3
+Syria, 0.31
 Seychelles, 0.01
-Lebanon, 0.24
+Lebanon, 0.25
 Haiti, 0.14
 Libya, 0.16
 Puerto Rico, 0.16
@@ -97,24 +96,24 @@ Ecuador, 0.12
 Algeria, 0.18
 Democratic Republic Of The Congo, 0.07
 Isle Of Man, 0.09
-Uruguay, 0.25
-Cuba, 0.31
+Uruguay, 0.26
+Cuba, 0.32
 Botswana, 0.02
 Montenegro, 0.02
 Uzbekistan, 0.06
 Ethiopia, 0.06
 Ghana, 0.19
 El Salvador, 0.11
-Costa Rica, 0.12
+Costa Rica, 0.13
 Republic Of The Congo, 0.02
 French Polynesia, 0.02
 Nicaragua, 0.05
 Vatican City, 0.02
 Lithuania, 0.11
-Kosovo, 0.04
-Saudi Arabia, 0.22
+Kosovo, 0.05
+Saudi Arabia, 0.23
 Jordan, 0.15
-Latvia, 0.12
+Latvia, 0.13
 Nepal, 0.16
 Jersey, 0.02
 Burkina Faso, 0.02
@@ -125,13 +124,13 @@ United Arab Emirates, 0.08
 Cook Islands, 0.01
 Iraq, 0.44
 Papua New Guinea, 0.04
-Malaysia, 0.41
+Malaysia, 0.42
 Nagorno-Karabakh Republic, 0.01
 Estonia, 0.17
 Honduras, 0.15
 Panama, 0.07
-Bermuda, 0.04
-Faroe Islands, 0.04
+Bermuda, 0.05
+Faroe Islands, 0.03
 Barbados, 0.06
 Myanmar, 0.21
 Palestine, 0.16
@@ -145,23 +144,24 @@ Tajikistan, 0.03
 Central African Republic, 0.02
 Eritrea, 0.02
 Fiji, 0.11
-Tonga, 0.02
-China, 0.87
-Iceland, 0.06
+Tonga, 0.01
+China, 0.88
+Iceland, 0.05
 Gibraltar, 0.05
 Mozambique, 0.03
 Guernsey, 0.04
 Malawi, 0.05
 Monaco, 0.11
 Slovakia, 0.26
-Saint Lucia, 0.04
-United Kingdom Northern Ireland, 0.04
-Namibia, 0.08
+Saint Lucia, 0.05
+United Kingdom Northern Ireland, 0.05
+Wales, 0.06
+Namibia, 0.09
 New Caledonia, 0.02
-Cambodia, 0.08
+Cambodia, 0.09
 Laos, 0.02
-Zambia, 0.12
-North Korea, 0.04
+Zambia, 0.13
+North Korea, 0.05
 Qatar, 0.03
 Norfolk Island, 0.01
 Comoros, 0.01
@@ -181,8 +181,6 @@ Swaziland, 0.01
 Turkmenistan, 0.02
 Mongolia, 0.02
 Vanuatu, 0.02
-Curaçao, 0.03
-Saint Barthélemy, 0.01
 Grenada, 0.03
 Northern Mariana Islands, 0.03
 Suriname, 0.02
@@ -207,7 +205,6 @@ Easter Island, 0.01
 Marshall Islands, 0.01
 Oman, 0.01
 Equatorial Guinea, 0.01
-São Tomé And Príncipe, 0.01
 South Ossetia, 0.01
 Burundi, 0.01
 Togo, 0.01

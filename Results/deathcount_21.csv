@@ -34,7 +34,7 @@ Croatia, 163
 Bolivia, 17
 Philippines, 214
 Armenia, 37
-Paraguay, 28
+Paraguay, 21
 Azerbaijan, 50
 Albania, 40
 Russia, 670
@@ -62,9 +62,8 @@ New Zealand, 206
 Belgium, 195
 Rwanda, 4
 South Korea, 71
-Cameroon, 19
-Colombia, 89
-Scotland, 204
+Cameroon, 16
+Colombia, 83
 Japan, 265
 Belize, 8
 Dominican Republic, 38
@@ -72,7 +71,7 @@ Guam, 9
 Kenya, 60
 Guatemala, 22
 Mauritius, 7
-Brazil, 271
+Brazil, 267
 Sierra Leone, 12
 Finland, 135
 Afghanistan, 69
@@ -81,7 +80,7 @@ Denmark, 100
 Palau, 1
 Vietnam, 22
 Somalia, 31
-Wales, 110
+Scotland, 29
 Venezuela, 96
 Chile, 60
 Guinea-Bissau, 4
@@ -131,7 +130,7 @@ Estonia, 30
 Honduras, 27
 Panama, 12
 Bermuda, 8
-Faroe Islands, 7
+Faroe Islands, 5
 Barbados, 11
 Myanmar, 37
 Palestine, 28
@@ -145,9 +144,9 @@ Tajikistan, 6
 Central African Republic, 3
 Eritrea, 3
 Fiji, 20
-Tonga, 3
+Tonga, 2
 China, 155
-Iceland, 11
+Iceland, 8
 Gibraltar, 9
 Mozambique, 5
 Guernsey, 7
@@ -156,6 +155,7 @@ Monaco, 19
 Slovakia, 46
 Saint Lucia, 8
 United Kingdom Northern Ireland, 8
+Wales, 11
 Namibia, 15
 New Caledonia, 4
 Cambodia, 15
@@ -181,8 +181,6 @@ Swaziland, 1
 Turkmenistan, 3
 Mongolia, 4
 Vanuatu, 4
-Curaçao, 5
-Saint Barthélemy, 1
 Grenada, 5
 Northern Mariana Islands, 5
 Suriname, 4
@@ -207,7 +205,6 @@ Easter Island, 1
 Marshall Islands, 2
 Oman, 2
 Equatorial Guinea, 1
-São Tomé And Príncipe, 1
 South Ossetia, 1
 Burundi, 2
 Togo, 1

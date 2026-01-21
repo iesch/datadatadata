@@ -34,42 +34,23 @@ for State in states:
     states.add(State.title())
 
 # initialize variables
-perc_deathcount = {'19': Counter(), '21': Counter()}
-total_wikicount = {'19': 0, '21': 0}
-deathplace = {'19': [], '21': []}
-deathcount = {'19': Counter(), '21': Counter()}
+centuries = ['19', '20', '21']
+perc_deathcount = {}
+deathplace = {}
+deathcount = {}
+
+for century in centuries:
+    perc_deathcount[century] = Counter()
+    deathplace[century] = []
+    deathcount[century] = Counter()
 
 # ------------------
 # FILTERING FOR TIME
 # ------------------
 
-# filter for only entries that include death place
+# filter for only entries that include death place & death date
 for person in data:
     for info in person:
-        if 'ontology/deathDate' in info:
-            if not isinstance(info['ontology/deathDate'], list):
-                try:
-                    year = int(info['ontology/deathDate'].split('-')[0])
-                except ValueError:
-                    year = 0
-                if year >= 2000:
-                    total_wikicount['21'] += 1
-                if year >= 1800 and year < 1900:
-                    total_wikicount['19'] += 1
-        
-        # If the observation has a death date, we do not need to check for a birth date,
-        # we do not want to count the same article twice.
-        elif 'ontology/birthData' in info:
-            if not isinstance(info['ontology/birthDate'], list):
-                try:
-                    year = int(info['ontology/birthDate'].split('-')[0])
-                except ValueError:
-                    year = 0
-                if year >= 2000:
-                    total_wikicount['21'] += 1
-                if year >= 1800 and year <1900:
-                    total_wikicount['19'] += 1
-
         if 'ontology/deathPlace_label' in info and 'ontology/deathDate' in info:
             if not isinstance(info['ontology/deathDate'], list):
                 try:
@@ -78,15 +59,17 @@ for person in data:
                     year = 0
                 if year >= 1800 and year < 1900:
                     deathplace['19'].append(info['ontology/deathPlace_label'])
+                if year >= 1900 and year < 2000:
+                    deathplace['20'].append(info['ontology/deathPlace_label'])
                 if year >= 2000:
                     deathplace['21'].append(info['ontology/deathPlace_label'])
 
 # -----------------------------
-# FILTERING FOR LOCATION & TIME
+# FILTERING FOR LOCATION
 # -----------------------------
 
 # counting number of deaths in each place
-for century in deathplace:
+for century in centuries:
     for places in deathplace[century]:
         # if it's a list i.e. ['Paris', 'France']
         if isinstance(places, list): 
