@@ -8,7 +8,7 @@ American Samoa;Pago Pago
 Andorra;Andorra la Vella
 Angola;Luanda
 Anguilla;The Valley
-Antigua and Barbuda;St. John's
+Antigua;St. John's
 Argentina;Buenos Aires
 Armenia;Yerevan
 Aruba;Oranjestad
@@ -31,7 +31,7 @@ Bolivia;La Paz
 Bosnia and Herzegovina;Sarajevo
 Botswana;Gaborone
 Brazil;Brasília
-British Virgin Islands;Road Town
+Virgin Islands;Road Town
 Brunei;Bandar Seri Begawan
 Bulgaria;Sofia
 Burkina Faso;Ouagadougou
@@ -53,7 +53,7 @@ Cook Islands;Avarua
 Costa Rica;San José
 Croatia;Zagreb
 Cuba;Havana
-Curaçao;Willemstad
+Curacao;Willemstad
 Cyprus;Nicosia
 Czech Republic;Prague
 Côte d'Ivoire;Yamoussoukro
@@ -125,7 +125,7 @@ Libya;Tripoli
 Liechtenstein;Vaduz
 Lithuania;Vilnius
 Luxembourg;Luxembourg
-Macedonia;Skopje
+North Macedonia;Skopje
 Madagascar;Antananarivo
 Malawi;Lilongwe
 Malaysia;Kuala Lumpur
@@ -157,7 +157,7 @@ Nigeria;Abuja
 Niue;Alofi
 Norfolk Island;Kingston
 North Korea;Pyongyang
-Northern Cyprus;Nicosia
+Cyprus;Nicosia
 United Kingdom Northern Ireland;Belfast
 Northern Mariana Islands;Saipan
 Norway;Oslo
@@ -176,7 +176,7 @@ Portugal;Lisbon
 Puerto Rico;San Juan
 Qatar;Doha
 Republic of China (Taiwan);Taipei
-Republic of the Congo;Brazzaville
+Republic of Congo;Brazzaville
 Romania;Bucharest
 Russia;Moscow
 Rwanda;Kigali
@@ -222,7 +222,7 @@ Thailand;Bangkok
 Togo;Lomé
 Tonga;Nukuʻalofa
 Transnistria;Tiraspol
-Trinidad and Tobago;Port of Spain
+Trinidad;Port of Spain
 Tristan da Cunha;Edinburgh of the Seven Seas
 Tunisia;Tunis
 Turkey;Ankara
@@ -232,13 +232,13 @@ Tuvalu;Funafuti
 Uganda;Kampala
 Ukraine;Kyiv
 United Arab Emirates;Abu Dhabi
-United Kingdom;London
-United States;Washington, D.C.
+UK;London
+USA;Washington, D.C.
 United States Virgin Islands;Charlotte Amalie
 Uruguay;Montevideo
 Uzbekistan;Tashkent
 Vanuatu;Port Vila
-Vatican City;Vatican City
+Vatican City;Vatican
 Venezuela;Caracas
 Vietnam;Hanoi
 Wales;Cardiff
@@ -247,3 +247,5 @@ Western Sahara;El Aaiún
 Yemen;Sanaá
 Zambia;Lusaka
 Zimbabwe;Harare
+Tobago;Butthole
+Barbuda;Butthole2
