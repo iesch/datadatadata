@@ -36,7 +36,7 @@ for state in states:
 # initialize variables
 total_wikicount = {'19': 0, '21': 0}
 deathplace = {'19': [], '21': []}
-deathcount = {'19': {}, '21': {}}
+deathcount = {'19': Counter(), '21': Counter()}
 final_deathcount = {'19': Counter(), '21': Counter()}
 
 # ------------------
@@ -137,10 +137,11 @@ for century in deathplace:
                 else:
                     deathcount[century][places] = 1
 
+print(final_deathcount)
 # turning final_deathcount into a csv to use for plotting
 
-for century in deathcount:
-    with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
-        file.write('Country, Deathcount\n')
-        for key, value in final_deathcount[century].items():
-            file.write(f'{key}, {value}\n')
+# for century in deathcount:
+#     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+#         file.write('Country, Deathcount\n')
+#         for key, value in final_deathcount[century].items():
+#             file.write(f'{key}, {value}\n')
