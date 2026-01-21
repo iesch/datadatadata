@@ -9,7 +9,7 @@ import string
 # load the wiki data
 data = []
 alphabet = list(string.ascii_uppercase)
-for letter in alphabet :
+for letter in alphabet:
     with open(f'Data/People/{letter}_people.json') as file:
         data.append(json.load(file))
 
@@ -34,10 +34,10 @@ for state in states:
     states.add(state.lower())
 
 # initialize variables
+perc_deathcount = {'19': Counter(), '21': Counter()}
 total_wikicount = {'19': 0, '21': 0}
 deathplace = {'19': [], '21': []}
-deathcount = {'19': {}, '21': {}}
-final_deathcount = {'19': Counter(), '21': Counter()}
+deathcount = {'19': Counter(), '21': Counter()}
 
 # ------------------
 # FILTERING FOR TIME
@@ -105,9 +105,6 @@ for century in deathplace:
                     # counter 
                     if place in deathcount[century]:
                         deathcount[century][place] += 1
-                        # filter for values above 10
-                        if deathcount[century][place] >= 10:
-                            final_deathcount[century][place] = deathcount[century][place]
                     else:
                         deathcount[century][place] = 1
         
@@ -130,18 +127,25 @@ for century in deathplace:
                 
                 # counter
                 if places in deathcount[century]:   
-                    deathcount[century][places] += 1
-                    # filter for values above 10
-                    if deathcount[century][places] >= 10:
-                        final_deathcount[century][places] = deathcount[century][places]
+                    deathcount[century][places] += 1          
                 else:
                     deathcount[century][places] = 1
 
+        # -----------------------------
+        # SAVING RESULTS IN .CSV FORMAT
+        # -----------------------------
 
-# turning final_deathcount into a csv to use for plotting
+    # computing percentages
+    total = sum((deathcount[century].values()))
+    for country in deathcount[century]:
+        perc_deathcount[century][country] = round((deathcount[century][country] / total) * 100, 2)
 
-for century in deathcount:
-     with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
-         file.write('Country, Deathcount\n')
-         for key, value in final_deathcount[century].items():
-             file.write(f'{key.title()}, {value}\n')
+    # turning final_deathcount and perc_deathcount into a csv 
+    with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+        file.write('Country, Deathcount\n')
+        for key, value in deathcount[century].items():
+            file.write(f'{key}, {value}\n')
+    with open(f'Results/percentage_deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+        file.write('Country, Percentage_Deathcount\n')
+        for key, value in perc_deathcount[century].items():
+            file.write(f'{key.title()}, {value}\n')
