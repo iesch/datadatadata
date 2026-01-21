@@ -144,4 +144,4 @@ for century in deathcount:
      with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
          file.write('Country, Deathcount\n')
          for key, value in final_deathcount[century].items():
-             file.write(f'{key}, {value}\n')
+             file.write(f'{key.title()}, {value}\n')
