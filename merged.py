@@ -10,11 +10,11 @@ import string
 data = []
 alphabet = list(string.ascii_uppercase)
 for letter in alphabet :
-    with open(f'People/{letter}_people.json') as file:
+    with open(f'Data/People/{letter}_people.json') as file:
         data.append(json.load(file))
 
 # load country with corresponding capital csv
-with open('country_capital.csv') as file:
+with open('Data/country_capital.csv') as file:
     table = file.read()
 # turn csv into a dictionary with country as key and capital as value
 country_capital = {}
@@ -25,7 +25,7 @@ for row in rows:
     country_capital[capital] = country
 
 # load states from US
-with open('state_names.txt') as file:
+with open('Data/state_names.txt') as file:
     States = file.read()
 # make into a set
 States = States.split(',\n')
@@ -117,7 +117,7 @@ for century in deathplace:
 
             if places == 'england' or places == 'wales' or places == 'scotland':
                 places = 'united kingdom'
-
+            # any state from the US is just counted as US
             if places in states:
                 places = 'united states'
             
@@ -137,7 +137,10 @@ for century in deathplace:
                 else:
                     deathcount[century][places] = 1
 
-print(total_wikicount['19'])
-print(total_wikicount['21'])
-print(final_deathcount['19'])
-print(final_deathcount['21'])
+# turning final_deathcount into a csv
+
+for century in deathcount:
+    with open(f'Results/deathcount_{century}.csv', 'w', encoding='utf-8') as file:
+        file.write('Country, Deathcount\n')
+        for key, value in final_deathcount[century].items():
+            file.write(f'{key}, {value}\n')

@@ -65,7 +65,7 @@ for places in deathplace:
     else:                       
         places = places.lower()
 
-        if place == 'england' or place == 'wales' or place == 'scotland':
+        if places == 'england' or places == 'wales' or places == 'scotland':
             places = 'United Kingdom'
 
         if places in states:
