@@ -93,11 +93,11 @@ for century in deathplace:
             for place in places:
                 place = place.title()
                 
-                if place == 'england' or place == 'wales' or place == 'scotland':
-                    place = 'united kingdom'
+                if place == 'England' or place == 'Wales' or place == 'Scotland':
+                    place = 'UK'
                 # any state from the US is just counted as US
                 if place in states:
-                    place = 'united states'
+                    place = 'USA'
 
                 # Only count countries 
                 if place in country_capital.values():
@@ -112,11 +112,11 @@ for century in deathplace:
         else:                       
             places = places.title()
 
-            if places == 'england' or places == 'wales' or places == 'scotland':
-                places = 'united kingdom'
+            if places == 'England' or places == 'Wales' or places == 'Scotland':
+                places = 'UK'
             # any state from the US is just counted as US
             if places in states:
-                places = 'united states'
+                places = 'USA'
             
             # if it's a capital make it the corresponding country
             if places in country_capital:
