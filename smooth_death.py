@@ -113,7 +113,7 @@ for time in range(start, stop, step):
 # turning final_deathcount into a csv
 with open('Results/time_deathcount.csv', 'w', encoding='utf-8') as file:
     file.write('region, year, deathcount\n')
-with open(f'Results/time_deathcount.csv', 'a', encoding='utf-8') as file:
+with open('Results/time_deathcount.csv', 'a', encoding='utf-8') as file:
     for year in deathcount:
         for key, value in deathcount[year].items():
             file.write(f'{key}, {year}, {value}\n')

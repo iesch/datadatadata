@@ -1,3 +1,4 @@
+install.packages('gganimate')
 library(tidyverse)
 library(maps)
 library(gganimate)
@@ -8,9 +9,6 @@ coordinates <- map_data("world")
 data <- read_csv('Results/time_deathcount.csv') |>
     mutate(year = as.integer(year))
 
-# pivot_wider(names_from = 'year', values_from = 'deathcount')
-
-
 data_mapping <- data |>
   right_join(coordinates, by = 'region')|>
   group_by(year) |>
@@ -20,17 +18,15 @@ data_mapping <- data |>
     rel_deathcount = replace_na(rel_deathcount, 0)
   )
 
-
 ggplot(data = data_mapping) +
   aes(x=long, y=lat, fill = deathcount, map_id = region) +
   geom_map(map = data_mapping) + 
   scale_x_continuous(labels = NULL) +
   scale_y_continuous(labels = NULL) +
   labs(x = NULL, y = NULL) +
-  scale_fill_viridis_c(option = 'rocket
-', trans = "log10", na.value = 'black') +
+  scale_fill_viridis_c(option = 'rocket', trans = 'log10', na.value = 'black') +
   coord_fixed(1.3) +
-  facet_wrap('century', ncol = 2) +
+  facet_wrap('year', ncol = 2) +
   transition_time(year) +
   ease_aes('linear')
 
