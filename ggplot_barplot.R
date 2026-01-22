@@ -22,7 +22,7 @@ barplot <- ggplot(data = deathcount_df) +
     geom_col(stat = 'identity', position = 'dodge') +
     geom_text(aes(label = region), position = position_dodge(width = 0.9),
       angle = 90, vjust = 0.5, hjust = -0.1, size = 5, family = 'serif') +
-    scale_fill_viridis_d(option = 'rocket') +
+    scale_fill_viridis_d(option = 'turbo') +
     theme_minimal() +  
     theme(legend.position = 'none',
       text = element_text(family = 'serif'),

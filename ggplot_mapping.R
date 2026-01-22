@@ -20,8 +20,7 @@ data_mapping <- data |>
       19 ~ "19th",
       20 ~ "20th",
       21 ~ "21st"
-    )
-  )
+    ))
 
 ggplot(data = data_mapping) +
   aes(x=long, y =lat, fill = deathcount, map_id = region) +
@@ -35,3 +34,5 @@ ggplot(data = data_mapping) +
   theme(text = element_text(size = 10, family = 'serif'))+
   coord_fixed(1.3) +
   facet_wrap('century', ncol = 3)
+
+ggsave('map_plot.pdf', height = 8, width = 19, units = "cm")
