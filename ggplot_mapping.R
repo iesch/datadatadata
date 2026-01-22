@@ -25,7 +25,6 @@ ggplot(data = data_mapping) +
   scale_x_continuous(labels = NULL) +
   scale_y_continuous(labels = NULL) +
   labs(x = NULL, y = NULL) +
-  scale_fill_viridis_c(option = 'rocket
-', trans = "log10", na.value = 'black') +
+  scale_fill_viridis_c(option = 'rocket', trans = "log10", na.value = 'black') +
   coord_fixed(1.3) +
   facet_wrap('century', ncol = 2)
