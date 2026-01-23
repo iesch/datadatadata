@@ -94,5 +94,5 @@ barplot_totals <- ggplot(data = refined_df) +
       axis.title.y = element_text(face = 'bold', color = 'black', size = 12, margin = margin(r = 4)),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank())
-#Save the result as a pdf
+#Save the result as a pdf 
 ggsave('Results/totals_century.pdf', plot = barplot_totals, width = 10, height = 12, units = 'cm')
