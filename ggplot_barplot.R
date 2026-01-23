@@ -1,6 +1,6 @@
-### Script Plotting the Bar Plot ###
-
+### Script Plotting the Top 5 Countries Bar Plot ###
 library(tidyverse)
+library(tidytext)
 
 #Load in data
 data <- read_csv('Results/deathcount.csv')
@@ -10,21 +10,40 @@ pivoted_df <- pivot_wider(data, names_from = century, values_from = deathcount)
 df19 <- select(pivoted_df, region, `19`) |> arrange(desc(`19`)) |> slice_head(n = 5)
 df20 <- select(pivoted_df, region, `20`) |> arrange(desc(`20`)) |> slice_head(n = 5)
 df21 <- select(pivoted_df, region, `21`) |> arrange(desc(`21`)) |> slice_head(n = 5)
-#Binding the dfs back into a single table
-df19 <- rename(df19, deathcount = `19`) |> mutate(century = '19th Century')
-df20 <- rename(df20, deathcount = `20`) |> mutate(century = '20th Century')
-df21 <- rename(df21, deathcount = `21`) |> mutate(century = '21th Century')
+#Binding the dfs back into a single table. century as numerical value for possible reordering
+df19 <- rename(df19, deathcount = `19`) |> mutate(century = 19)
+df20 <- rename(df20, deathcount = `20`) |> mutate(century = 20)
+df21 <- rename(df21, deathcount = `21`) |> mutate(century = 21)
 deathcount_df <- bind_rows(df19, df20, df21)
 
+#Reordering regions within each century by deathcount
+deathcount_df <- deathcount_df %>%
+  mutate(region_reordered = reorder_within(region, deathcount, century))
+#Changing numerical values back to factors so that scale_x_discrete works later on
+deathcount_df$century <- factor(deathcount_df$century) #works for mysterious reasons
+
 #Plotting
-barplot <- ggplot(data = deathcount_df) +
-    aes(x = century, y = deathcount, fill = region) +
+barplot_top5 <- ggplot(data = deathcount_df) +
+    #X-scale is century, Y-scale is deathcount
+    #Give each region an individual color, but order based on region_reordered variable
+    aes(x = century, y = deathcount, fill = region, group = region_reordered) +
+    #Remove all scale labels and legends except the Y-scale
     labs(x = NULL, y = 'Number of Deaths', fill = NULL) +
+    #Expand limits so all geom_texts are clearly visible and legible
     expand_limits(y=0:6250) +
+    
+    #Plot the columns representing numerical death counts side by side per century  
     geom_col(stat = 'identity', position = 'dodge') +
+    #Attach text to each col at an appropriate and aesthetically pleasing location
     geom_text(aes(label = region), position = position_dodge(width = 0.9),
       angle = 90, vjust = 0.5, hjust = -0.1, size = 5, family = 'serif') +
+  
+    #Color scheme that is beautiful but not misinterpretable as a gradient
     scale_fill_viridis_d(option = 'turbo') +
+    #Replacing numerical centuries by informative labels
+    scale_x_discrete(labels = c('19th Century', '20th Century', '21st Century')) +
+    
+    #Customizing our theme until we are happy
     theme_minimal() +  
     theme(legend.position = 'none',
       text = element_text(family = 'serif'),
@@ -34,4 +53,5 @@ barplot <- ggplot(data = deathcount_df) +
       axis.title.y = element_text(face = 'bold', color = 'black', size = 12, margin = margin(r = 2)),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank())
-ggsave('Results/top_5_century.pdf', plot = barplot, width = 15, height = 10, units = 'cm')
+#Save result as pdf
+ggsave('Results/top_5_century.pdf', plot = barplot_top5, width = 17, height = 10, units = 'cm')
