@@ -72,15 +72,13 @@ refined_df <- select(data, -countries_recorded)
 #Plotting totals_century barplot
 barplot_totals <- ggplot(data = refined_df) +
     #X-scale is century, Y-scale is total deathcount, adding color to columns for flavor using 'fill'
-    aes(x = century, y = total_deathcount, fill = century) +
+    aes(x = century, y = total_deathcount) +
     #Remove all scale labels and legends except the Y-scale
-    labs(x = NULL, y = 'Number of Deaths', fill = NULL) +
+    labs(x = NULL, y = 'Number of Deaths') +
     
     #Plot the columns representing numerical death counts per century
-    geom_col(stat = 'identity', width = 0.9) +
+    geom_col(stat = 'identity', width = 0.9, fill = 'dark gray') +
   
-    #Color scheme that is beautiful
-    scale_fill_viridis_d(option = 'rocket') +
     #Replacing numerical centuries by informative labels
     scale_x_discrete(labels = c('19th Century', '20th Century', '21st Century')) +
     
