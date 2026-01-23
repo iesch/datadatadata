@@ -1,6 +1,11 @@
-### Script Plotting the Top 5 Countries Bar Plot ###
+### Script Plotting the Top 5 Countries Bar Plot and Total Death Count Bar Plot ###
+#Imports
 library(tidyverse)
 library(tidytext)
+
+# ----------------
+#  FIRST BARPLOT
+# ----------------
 
 #Load in data
 data <- read_csv('Results/deathcount.csv')
@@ -22,7 +27,7 @@ deathcount_df <- deathcount_df %>%
 #Changing numerical values back to factors so that scale_x_discrete works later on
 deathcount_df$century <- factor(deathcount_df$century) #works for mysterious reasons
 
-#Plotting
+#Plotting top_5_century barplot
 barplot_top5 <- ggplot(data = deathcount_df) +
     #X-scale is century, Y-scale is deathcount
     #Give each region an individual color, but order based on region_reordered variable
@@ -54,4 +59,40 @@ barplot_top5 <- ggplot(data = deathcount_df) +
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank())
 #Save result as pdf
-ggsave('Results/top_5_century.pdf', plot = barplot_top5, width = 17, height = 10, units = 'cm')
+ggsave('top_5_century.pdf', plot = barplot_top5, width = 17, height = 10, units = 'cm')
+
+# ----------------
+#  SECOND BARPLOT
+# ----------------
+
+#Overwrite data with new totals.csv
+data <- read_csv('Results/totals.csv')
+refined_df <- select(data, -countries_recorded)
+
+#Plotting totals_century barplot
+barplot_totals <- ggplot(data = refined_df) +
+    #X-scale is century, Y-scale is total deathcount, adding color to columns for flavor using 'fill'
+    aes(x = century, y = total_deathcount, fill = century) +
+    #Remove all scale labels and legends except the Y-scale
+    labs(x = NULL, y = 'Number of Deaths', fill = NULL) +
+    
+    #Plot the columns representing numerical death counts per century
+    geom_col(stat = 'identity', width = 0.9) +
+  
+    #Color scheme that is beautiful
+    scale_fill_viridis_d(option = 'rocket') +
+    #Replacing numerical centuries by informative labels
+    scale_x_discrete(labels = c('19th Century', '20th Century', '21st Century')) +
+    
+    #Customizing our theme until we are happy
+    theme_minimal() +  
+    theme(legend.position = 'none',
+      text = element_text(family = 'serif'),
+      axis.text.y = element_text(color = 'black', size = 13, hjust = 1.1),
+      axis.line.y.left = element_line(color = 'black', linewidth = 0.5, linetype = 'solid'),
+      axis.text.x = element_text(face = 'bold', color = 'black', size = 10, vjust = 5),
+      axis.title.y = element_text(face = 'bold', color = 'black', size = 12, margin = margin(r = 4)),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank())
+#Save the result as a pdf
+ggsave('Results/totals_century.pdf', plot = barplot_totals, width = 10, height = 12, units = 'cm')
