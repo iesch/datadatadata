@@ -1,9 +1,10 @@
 ### Script Plotting the Map ###
 
-#Import tidyverse and maps and reading in the data
+# Import tidyverse and maps
 library(tidyverse)
 library(maps)
 
+# Reading in the data
 coordinates <- map_data("world")
 data <- read_csv('Results/CSV/deathcount.csv')
 
@@ -41,5 +42,5 @@ ggplot(data = data_mapping) +
   coord_fixed(1.3) +
   #Adding all maps to the figure
   facet_wrap('century', ncol = 3)
-
+#Saving figure as pdf
 ggsave('Results/Figures/map_plot.pdf', height = 8, width = 19, units = "cm")
